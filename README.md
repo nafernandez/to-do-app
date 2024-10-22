@@ -3,14 +3,6 @@
 En esta aplicacion, se permite al usuario agregar, completar o eliminar una tarea de una lista, visualizando las tareas que estan completas y las pendientes.
 Fue enteramente desarrollada con React y Typescript. He añadido la libreria uuid para asignar los valores como key en cada tarea.
 
-# Uso
-
-- Ingresa el título de una tarea en el formulario y haz clic en "Agregar tarea".
-- Haz clic en el cuadro de verificación para marcar una tarea como completada.
-- Haz clic en el botón de eliminar (basurero) para eliminar una tarea de la lista.
-- El contador de tareas se actualizará automáticamente para reflejar el número de tareas completadas y el total de tareas.
-
-
 ## Available Scripts
 
 In the project directory, you can run:
