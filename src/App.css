@@ -1,0 +1,13 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+}

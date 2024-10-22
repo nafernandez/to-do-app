@@ -1,0 +1,40 @@
+.card-task{
+    display: flex;
+    width: 10vw;
+    max-width: 10vw;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 10px;
+    max-height: 15vh;
+}
+
+.tasks-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 70vh;
+    max-height: 70vh;
+    overflow: auto;
+}
+
+.card-check{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 8vw;
+    justify-content: space-between;
+}
+
+.button-save{
+    height: 32px;
+}
+
+.completed{
+    background-color: #5ab559; 
+}
+
+.not-completed{
+    background-color: #f7a57e;
+}
+
