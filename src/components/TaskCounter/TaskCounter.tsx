@@ -8,10 +8,7 @@ interface TaskCounterProps {
 
 const TaskCounter: React.FC<TaskCounterProps> = ({ tasks }) => {
 
-    const completedTasks = tasks.filter((task)=> {
-        console.log('completed task filter')
-        return task.completed
-    }).length;
+    const completedTasks = tasks.filter((task)=> task.completed).length;
 
     return (
         <div className="counter-container">
